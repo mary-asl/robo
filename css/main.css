@@ -13,6 +13,10 @@ a {
   color: #ffa500;
 }
 
+h2 {
+  font-size: 24px;
+}
+
 .btn {
   padding: 20px 30px;
   display: inline-block;
@@ -114,6 +118,16 @@ a {
 .content {
   margin-top: 40px;
 }
-.content h2 {
-  font-size: 24px;
+
+.directions {
+  margin-top: 40px;
+}
+.directions-block {
+  background-color: #fff;
+  height: 220px;
+  text-align: center;
+}
+.directions-block h3 {
+  color: #ffa500;
+  padding: 20px 34px;
 }
