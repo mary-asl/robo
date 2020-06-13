@@ -9,6 +9,27 @@ body {
   padding-top: 40px;
 }
 
+a {
+  color: #ffa500;
+}
+
+.btn {
+  padding: 20px 30px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+}
+.btn:hover {
+  background-color: #ffaa0f;
+}
+.btn-primary {
+  background-color: #ffa500;
+  border-bottom: 5px solid #cc8400;
+}
+
 .top-nav {
   background-color: #fff;
   padding: 15px;
@@ -43,4 +64,56 @@ body {
 .top-nav_menu li a:hover::after {
   -webkit-transform: translateY(46px) scale(1);
           transform: translateY(46px) scale(1);
+}
+
+.left-sidebar {
+  margin-top: 40px;
+  background-color: #fff;
+}
+.left-sidebar_menu {
+  background-color: #fff;
+  list-style: none;
+  padding: 0;
+}
+.left-sidebar_menu li {
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+.left-sidebar_menu li:first-child a {
+  padding-top: 20px;
+}
+.left-sidebar_menu li:last-child a {
+  padding-bottom: 20px;
+}
+.left-sidebar_menu li:hover {
+  background-color: #ffa500;
+}
+.left-sidebar_menu li:hover a {
+  color: #fff;
+}
+.left-sidebar_menu li a {
+  text-decoration: none;
+  display: block;
+  padding: 15px 29px;
+  color: #131313;
+  font-size: 16px;
+  font-weight: 400;
+}
+.left-sidebar_object {
+  margin-top: 30px;
+  background-color: #fff;
+}
+.left-sidebar_object-description {
+  padding: 30px;
+}
+.left-sidebar_object-description h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.content {
+  margin-top: 40px;
+}
+.content h2 {
+  font-size: 24px;
 }
