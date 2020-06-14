@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  margin: 0;
   background-color: #eef3f5;
   color: #131313;
   font-family: "Roboto", sans-serif;
@@ -108,11 +109,11 @@ h2 {
   font-weight: 400;
 }
 .left-sidebar_object {
-  margin-top: 30px;
+  margin-top: 25px;
   background-color: #fff;
 }
 .left-sidebar_object-description {
-  padding: 30px;
+  padding: 15px;
 }
 .left-sidebar_object-description h3 {
   text-transform: uppercase;
@@ -137,4 +138,49 @@ h2 {
 }
 .directions-block h3 {
   color: #ffa500;
+}
+
+.footer {
+  margin-top: 60px;
+  background-color: #131313;
+  color: #666666;
+  padding: 59px 0;
+}
+.footer-contacts, .footer-social-links {
+  text-align: right;
+}
+.footer-contacts_phone {
+  font-weight: 400;
+  font-size: 20px;
+  color: #ffa500;
+}
+.footer p {
+  margin-bottom: 14px;
+}
+.footer a {
+  color: #666666;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #fff;
+}
+.footer a-policy-link {
+  font-size: 12px;
+  display: block;
+}
+.footer ul {
+  padding: 0;
+  list-style: none;
+}
+.footer ul li {
+  line-height: 32px;
+}
+.footer-social-links li {
+  display: inline-block;
+  width: 42px;
+  height: 42px;
+  background-color: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  padding: 10px;
+  border-radius: 50%;
 }
