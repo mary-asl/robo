@@ -295,6 +295,10 @@ h2 {
     font-size: 5px;
   }
 
+  .team img {
+    width: 50%;
+  }
+
   .top-nav_btn {
     display: block;
   }
