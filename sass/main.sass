@@ -2,7 +2,7 @@
 @import "fontello"
 
 html
- font-size: 14px
+ font-size: 10px
 
 body 
  margin: 0
@@ -10,6 +10,7 @@ body
  color: $dark
  font-family: 'Roboto', sans-serif
  padding-top: 40px
+ font-size: 14px
 a
  color: $active-color
 h2
@@ -70,8 +71,24 @@ h2
       transform: translateY(46px) scale(1)
       
 .left-sidebar
- margin-top: 40px
- background-color: $white
+ margin-top: 4rem
+ &_btn
+  display: none
+  background-color: $white
+  padding: 15px
+  position: relative
+  &::after
+   content: ''
+   display: inline-block
+   position: absolute
+   top: 50%
+   margin-top: -10px
+   right: 15px
+   width: 15px
+   height: 15px
+   border-bottom: 2px solid $dark
+   border-right: 2px solid $dark
+   transform: rotate(45deg)
  &_menu
   background-color: $white
   list-style: none

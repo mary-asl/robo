@@ -35,7 +35,7 @@
 						<button class="top-nav_btn">
 							<i class="icon-menu"></i>
 						</button>
-						<ul class="top-nav_menu top-nav_menu__active">
+						<ul class="top-nav_menu">
 						<li><a href="#">Главная</a></li>
 						<li><a href="#">О нас</a></li>
 						<li><a href="#">Учебные программы</a></li>
@@ -50,6 +50,9 @@
 			<div class="row">
 				<div class="col-md-4">
 					<div class="left-sidebar">
+					<div class="left-sidebar_btn">
+						Образовательные программы
+					</div>
 					<ul class="left-sidebar_menu">
 						<li><a href="#">Разработка игр</a></li>
 						<li><a href="#">Arduino</a></li>
@@ -199,14 +202,30 @@
 		  arrows: false,
 		  dots: true,
 		  slidesToShow: 4,
-		  slidesToScroll: 1
+		  slidesToScroll: 1,
+		  responsive: [
+			{
+			 breakpoint: 767,
+			 settings: {
+			  slidesToShow: 1,
+			  slidesToScroll: 1
+			 }
+			},
+		  ]
 		 });
 		</script>
 
 		<script>
 		 $(document).ready(function(){
 		  var menuBtn = $('.top-nav_btn');
+		  var sidebarBtn = $('.left-sidebar_btn');
 		  var menu = $('.top-nav_menu');
+		  var sidebarMenu = $('.left-sidebar_menu');
+
+		  sidebarBtn.on('click', function(event){
+		   event.preventDefault();
+		   sidebarMenu.toggleClass('left-sidebar_menu__active');
+		  });
 
 		  menuBtn.on('click', function(event){
 		   event.preventDefault();
