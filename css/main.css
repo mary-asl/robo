@@ -258,6 +258,16 @@ h2 {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    display: none;
+  }
+  .top-nav_menu__active {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 0;
+  }
+  .top-nav_menu li {
+    line-height: 2;
   }
   .top-nav_menu li a::after {
     display: none;
