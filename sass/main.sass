@@ -32,6 +32,11 @@ h2
   background-color: $active-color
   border-bottom: 5px solid darken($active-color, 10%)
 
+table
+ width: 100%
+ max-width: 100%
+ margin-bottom: 20px
+
 .slick-active
   outline: none
 
@@ -209,6 +214,45 @@ h2
     border-radius: 50%
     margin-right: 6px
     margin-top: 15px 
+.table
+ font-size: 15px
+ padding: 10px
+ font-family: 'Roboto', sans-serif
+ color: $dark
+ text-align: center
+.table-bordered
+ border-collapse: collapse
+ border: 1px solid $dark
+ td
+  border: 1px solid $dark
+  height: 30px
+ tr
+  border: 1px solid $dark
+ &-head
+  color: $active-color
+  font-weight: 700
+.program
+ &-card
+  background-color: $white
+  margin-bottom: 20px
+  min-height: 42rem
+  padding: 25px 30px
+  transition: all 0.2s
+  &:hover
+   box-shadow: 0 5px 10px rgba(0, 0, 1, 0.1)
+  a
+   text-decoration: none
+   text-transform: uppercase
+   display: block
+   margin-bottom: 20px
+  small
+   display: block
+   color: $inn
+   line-height: 1.5
+  p
+   line-height: 22px
+
+
 
  
 @import "media"
