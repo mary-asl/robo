@@ -278,7 +278,7 @@ h2 {
   text-align: center;
 }
 .team img {
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .team h4 {
   font-size: 18px;
@@ -286,7 +286,35 @@ h2 {
   margin-bottom: 15px;
 }
 .team p {
-  margin-bottom: 40px;
+  margin-bottom: 15px;
+}
+
+.contacts {
+  font-size: 16px;
+}
+.contacts-adress {
+  display: block;
+  line-height: 2;
+  margin-bottom: 20px;
+}
+.contacts-img {
+  margin-right: 12px;
+  vertical-align: middle;
+}
+.contacts-social-links ul {
+  list-style: none;
+  padding: 0;
+}
+.contacts-social-links ul li {
+  display: inline-block;
+  background-color: #ffa500;
+  width: 42px;
+  height: 42px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 50%;
+  margin-right: 6px;
+  margin-top: 15px;
 }
 
 /*Адаптив для сайта */
@@ -373,6 +401,7 @@ h2 {
 
   .copy {
     text-align: center;
+    margin-bottom: 25px;
   }
 
   .footer-contacts, .footer-social-links {
