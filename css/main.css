@@ -374,6 +374,23 @@ table {
   line-height: 22px;
 }
 
+.object-page {
+  margin-bottom: 30px;
+  mapgin-top: 20px;
+}
+.object-page_text {
+  padding: 5px 25px;
+  background-color: #fff;
+}
+.object-page_gallery {
+  position: relative;
+  top: 5%;
+}
+
+h3 {
+  color: #ffa500;
+}
+
 /*Адаптив для сайта */
 @media (max-width: 768px) {
   html {
